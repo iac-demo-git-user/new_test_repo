@@ -2,7 +2,7 @@
     "Resources": {
         "S3Bucket": {
             "Type": "AWS::S3::Bucket",
-            "DeletionPolicy": "Retain",
+            "DeletionPolicy": "",
             "Properties": {
                 "BucketName": "iac-s3-test-bucket"
             }
